@@ -22,9 +22,9 @@ const App = () => {
                     <Route exact path='/login' component={Login} />
                     <Route exact path='/recovery-password' component={RecoveryPassword} />
                     <Route exact path='/send-email' component={SendEmail} />
-                    <Route exact path='/' component={NewPassword} />
+                    <Route exact path='/new-password' component={NewPassword} />
                     <Route exact path='/account' component={MyAccount} />
-                    <Route exact path='/' component={CreateAccount} />
+                    <Route exact path='/create-account' component={CreateAccount} />
                     <Route exact path='/checkout' component={Checkout} />
                     <Route exact path='/orders' component={Orders} />
                     <Route path='*' component={NotFound} />
