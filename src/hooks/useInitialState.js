@@ -14,9 +14,17 @@ const useinitialState = () => {
         });
     };
     
+    const removeFromCart = (indexValue) => {
+        setState({
+            ...state,
+            cart: state.cart.filter((items, index) => index !== indexValue),
+        })
+    }
+
     return {
         state,
-        addToCart
+        addToCart,
+        removeFromCart,
     }
 };
 
