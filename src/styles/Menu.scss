@@ -9,6 +9,7 @@
 	position: absolute;
 	top: 60px;
 	right: 5px;
+	background-color: var(--white);
 }
 .Menu ul {
 	list-style: none;
@@ -31,7 +32,7 @@
 	font-size: var(--sm);
 }
 .Menu ul li a {
-	color: var(--back);
+	color: var(--black);
 	text-decoration: none;
 	margin-bottom: 20px;
 	display: inline-block;
